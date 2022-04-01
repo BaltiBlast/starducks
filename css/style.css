@@ -96,9 +96,9 @@ h3 {
     text-decoration: underline;
 }
 
-/* STAR DUCKS */
+/* STAR DUCKS WITHOUT BONUS */
 
-.main-stars {
+/* .main-stars {
     padding: 0 250px;
     margin: 90px 0;
     text-align: center;
@@ -107,14 +107,51 @@ h3 {
 
 .main-stars-duck-name {
     margin: 100px 0 30px 0;
-
 }
 
-.main-stars-duck-info {
+.main-stars-duck-text {
     font-style: italic;
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 100px;
+} */
+
+/* STAR DUCKS WITH BONUS */
+
+.main-stars {
+    padding: 0 250px;
+    margin: 90px 0;
+}
+
+.main-stars-element-title{
+    text-align: center;
+}
+
+.main-stars-duck {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 90px 0;
+}
+
+.main-star-duck-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 200px;
+}
+
+.main-stars-duck-text {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+} 
+
+
+
+.main-star-duck-picture {
+    width: 330px;
 }
 
 /* ---------------------------------------- */
