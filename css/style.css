@@ -123,7 +123,7 @@ h3 {
     margin: 90px 0;
 }
 
-.main-stars-element-title{
+.main-stars-element-title {
     text-align: center;
 }
 
@@ -146,12 +146,42 @@ h3 {
     font-style: italic;
     font-size: 20px;
     font-weight: 300;
-} 
-
-
+}
 
 .main-star-duck-picture {
     width: 330px;
+}
+
+/* ---------------------------------------- */
+/* --- MAIN REDIRECTION --- */
+
+.main-redirection {
+    padding: 0 250px;
+    margin-bottom: 100px;
+}
+
+.main-redirection-title {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.main-redirection-link-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+.main-redirection-link {
+    width: 450px;
+    height: 60px;
+    background-color: #137F8B;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ---------------------------------------- */
