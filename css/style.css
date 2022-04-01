@@ -1,0 +1,128 @@
+/* --- GENERIC STYLE --- */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    border: solid 1px #137F8B;
+}
+
+
+/* ---------------------------------------- */
+/* TITLE */
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+/* ---------------------------------------- */
+/* --- HEADER --- */
+.header {
+    height: 500px;
+    background-color: #137F8B;
+    color: white;
+    padding: 20px;
+}
+
+.header-title {
+    display: inline-block;
+    margin-left: 6px;
+    font-weight: 700;
+}
+
+.header-logo {
+    width: 42px;
+    vertical-align: bottom;
+}
+
+.header-encase {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.header-span {
+    font-weight: bold;
+}
+
+.header-presentation {
+    border: solid 2px white;
+    padding: 80px;
+    font-size: 40px;
+    font-weight: 200;
+    width: 1000px;
+    margin: auto;
+}
+
+.header-talking {
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+/* ---------------------------------------- */
+/* --- MAIN --- */
+.main-duck {
+    padding: 0 250px;
+    line-height: 28px;
+    margin: 90px 0;
+    line-height: 28px;
+}
+
+.main-paragraph {
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 300;
+}
+
+/* FORUM */
+.main-forum {
+    background-color: #137F8B;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 30px 0;
+}
+
+.main-forum-span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* STAR DUCKS */
+
+.main-stars {
+    padding: 0 250px;
+    margin: 90px 0;
+    text-align: center;
+    line-height: 28px;
+}
+
+.main-stars-duck-name {
+    margin: 100px 0 30px 0;
+
+}
+
+.main-stars-duck-info {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+/* ---------------------------------------- */
+/* --- FOOTER --- */
+
+.footer {
+    color: white;
+    background-color: #137F8B;
+    text-align: center;
+    padding: 20px;
+}
